@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    scroll-behavior: smooth;
+    perspective: 800px;  
+    /* 3d  The distance between the user's eye and the screen  */
+}
+
+main {
+    overflow: hidden;
+    position: relative;
+    
+}
+
+section {
+    padding-block: 80px;
+}
+
+:root {
+    --primary-color: #e31e1e;
+}
+
+#themeColor:checked+main {
+    --primary-color: #2522ce;
+}
